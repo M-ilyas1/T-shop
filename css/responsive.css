@@ -1,0 +1,312 @@
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .six_box .six_probpx span {
+        font-size: 15px;
+    }
+    .ban_img {
+        margin-right: -30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 30px 15px;
+    }
+    .banner_main {
+        min-height: 566px;
+    }
+    .text-bg h1 {
+        font-size: 92px;
+        line-height: 108px;
+    }
+    .blodark {
+        font-size: 70px;
+    }
+    .ban_img {
+        margin-right: -15px;
+    }
+    .six_box .six_probpx span {
+        font-size: 13px;
+    }
+    .news_text h3 {
+        font-size: 20px;
+    }
+    .news_text p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .about_text h3 {
+        font-size: 27px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    ul.conta_icon li a {
+        font-size: 15px;
+    }
+    .project .project_box {
+        max-width: 28.3%;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 30px 8px;
+        font-size: 14px;
+    }
+    .banner_main {
+        min-height: 459px;
+    }
+    .blodark {
+        font-size: 60px;
+    }
+    .text-bg h1 {
+        font-size: 77px;
+        padding-bottom: 15px;
+        line-height: 80px;
+    }
+    .text-bg p {
+        font-size: 26px;
+    }
+    .ban_img {
+        margin-right: -22px;
+    }
+    .six_box .six_probpx span {
+        font-size: 10px;
+    }
+    .project .project_box h3 {
+        font-size: 14px;
+    }
+    .news_text p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .news_text h3 {
+        font-size: 17px;
+    }
+    .about_text h3 {
+        font-size: 19px;
+        margin-top: 0px;
+    }
+    .footer p {
+        padding-right: 0px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .about_text p {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 15px 0 25px 0;
+    }
+    .neslatter {
+        font-size: 20px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .d_none1 {
+        display: none !important;
+    }
+    .banner_main {
+        min-height: 576px;
+    }
+    .blodark {
+        font-size: 70px;
+    }
+    .text-bg p {
+        font-size: 30px;
+    }
+    .text-bg h1 {
+        font-size: 85px;
+        line-height: 100px;
+        padding-bottom: 20px;
+    }
+    .ban_img {
+        position: inherit;
+        margin-right: 0;
+    }
+    .six_box .six_probpx span {
+        font-size: 14px;
+    }
+    .titlepage h2 {
+        font-size: 26px;
+        line-height: 29px;
+    }
+    .news_text h3 {
+        font-size: 22px;
+        margin-top: 15px;
+    }
+    .footer h3 {
+        padding-top: 20px;
+    }
+    .project .project_box {
+        max-width: 44%;
+    }
+    .news_form .letter_form {
+        width: 100%;
+    }
+    .news_form .sumbit {
+        float: left;
+        margin-top: 30px;
+        margin-left: 0px !important;
+    }
+    .neslatter {
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        padding-top: 2px !important;
+    }
+    .navigation .navbar-collapse {
+        background: #183661;
+        padding: 20px;
+        margin-top: 24px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: #f2c119;
+        background-color: inherit;
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        color: #f2c119;
+        background-color: inherit;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        padding-top: 19px !important;
+        padding: 0;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+        width: 64px;
+        height: 44px;
+    }
+}
+
+@media (max-width: 575px) {
+    .d_none1 {
+        display: none !important;
+    }
+    .logo {
+        float: left;
+        border: inherit;
+        margin-top: 0px !important;
+    }
+    .banner_main {
+        padding: 99px 0px 0px 0px;
+        min-height: 547px;
+    }
+    .text-bg h1 {
+        font-size: 50px;
+        padding-bottom: 20px;
+        line-height: 66px;
+        px;
+    }
+    .text-bg p {
+        line-height: 30px;
+        font-size: 21px;
+    }
+    .project .project_box {
+        max-width: 100%;
+    }
+    .ban_img {
+        position: inherit;
+        margin-right: 0;
+    }
+    .six_box .six_probpx span {
+        font-size: 14px;
+    }
+    .titlepage h2 {
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .news_text h3 {
+        font-size: 22px;
+        margin-top: 15px;
+    }
+    .footer h3 {
+        padding-top: 20px;
+        font-size: 22px;
+    }
+    .blodark {
+        font-size: 45px;
+    }
+    .about_text h3 {
+        font-size: 27px;
+    }
+    .news_form .letter_form {
+        width: 100%;
+    }
+    .news_form .sumbit {
+        float: left;
+        margin-top: 30px;
+        margin-left: 0px !important;
+    }
+    .neslatter {
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -68px;
+    }
+    .navigation .navbar-collapse {
+        background: #183661;
+        padding: 20px;
+        margin-top: 68px;
+        position: absolute;
+        width: 100%;
+        z-index: 9999;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #fff;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link:focus,
+    .navigation.navbar-dark .navbar-nav .nav-link:hover {
+        color: #f2c119;
+        background-color: inherit;
+    }
+    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .nav-link.active,
+    .navigation.navbar-dark .navbar-nav .nav-link.show,
+    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+        color: #f2c119;
+        background-color: inherit;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        padding: 0;
+        border: inherit;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon1.png);
+        background-repeat: no-repeat;
+        width: 64px;
+        height: 44px;
+    }
+}
+
